@@ -1,0 +1,19 @@
+.FooterImage{
+    background-image: url("https://i.ibb.co/kqsjgt8/Rectangle-549.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footertext{
+display: flex;
+flex-direction: row;
+justify-content: center;
+justify-content: space-evenly;
+}
+@media(max-width: 600px){
+    .footertext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-evenly;
+        }
+}

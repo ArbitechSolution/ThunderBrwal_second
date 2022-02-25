@@ -1,0 +1,36 @@
+.navbariamge{
+    background-image: url("https://i.ibb.co/SQxJN9D/Rectangle-493.png"),url('https://i.ibb.co/Lnr4SvF/Group-111.png');
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-whitess{
+    color: white;
+    font-weight:500;
+    font-size: 18px;
+}
+
+.text-whitess:hover{
+    color: white;
+    font-weight:500;
+    font-size: 18px;
+    border-bottom: 2px solid #F8B815;
+}
+.text-whitess::after{
+    color: #F3961E;
+    font-weight:500;
+    font-size: 18px;
+}
+.icon{
+    color: white;
+}
+.dropdown-menu {
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown:hover .dropdown-menu {display: block;}

@@ -1,0 +1,14 @@
+.NFTimage{
+    background-image: url("https://i.ibb.co/K6k846p/Rectangle-510.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.backimage{
+    position: relative;
+    width: 300px;
+}
+.frontimage{
+    position: absolute;
+    width: 272px;
+}

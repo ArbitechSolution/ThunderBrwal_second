@@ -1,0 +1,36 @@
+.MaskGroupImage{
+    background-image: url("https://i.ibb.co/z7Zn6BQ/Mask-Group.png");
+    background-color: rgb(26, 25, 25);
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+.maskgroupimage{
+    width: 350px;
+}
+.maskgroupbox{
+    background: #000000;
+box-shadow: 0px 0px 30px rgba(243, 150, 30, 0.75);
+border-radius: 200px;
+}
+@media(max-width: 1050px){
+    .maskgroupbox{
+        background: #000000;
+    box-shadow: 0px 0px 30px rgba(243, 150, 30, 0.75);
+    border-radius: 0px;
+    }
+    .maskgroupimage{
+        width: 255px;
+    }
+}
+@media(max-width: 600px){
+    .maskgroupbox{
+        background: #000000;
+    box-shadow: 0px 0px 30px rgba(243, 150, 30, 0.75);
+    border-radius: 0px;
+    }
+    .maskgroupimage{
+        width: 292px;
+    }
+}

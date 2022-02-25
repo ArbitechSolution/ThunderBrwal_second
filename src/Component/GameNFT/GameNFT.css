@@ -1,0 +1,90 @@
+.GameNftImage{
+    background-image: url("https://i.ibb.co/xfMJpWB/game-backgroung-Image.png"),url('https://i.ibb.co/Yf1cnTg/Rectangle-536.png');
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+.GameNFT-Box{
+    background: rgba(0, 0, 0, 0.7);
+border-radius: 20px;
+}
+.gamepic{
+    width: 220px
+}
+.game-order-list, .gamelist{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  line-height: 1.5rem;
+  font-size: 20px;
+  color: white;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs {
+  color: white;
+  background-color: transparent;
+  border-color: none;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: white;
+  background-color: transparent;
+  border-color: none;
+}
+
+.gamelist{
+  margin: 0.8em;
+  margin-left: 1.5em;
+}
+.gamelist:before{
+  content: '\f0e7' ;
+  font-family: 'FontAwesome' !important;
+  float: left;
+  margin-left: -1.5em;
+  color: #F8B915;;
+}
+@media(max-width: 600px){
+  .game-order-list, .gamelist{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 1.5rem;
+    font-size: 17px;
+    color: white;
+  }
+  .gamelist{
+    margin: 0.8em;
+    margin-left: 1.5em;
+  }
+  .gamelist:before{
+    content: '\f0e7' ;
+    font-family: 'FontAwesome' !important;
+    float: left;
+    margin-left: -1.5em;
+    color: #F8B915;;
+  }
+}
+@media(max-width: 480px){
+    .gamepic{
+        width: 100px
+    }  
+    .game-order-list, .gamelist{
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      line-height: 1.5rem;
+      font-size: 15px;
+      color: white;
+    }
+    .gamelist{
+      margin: 0.8em;
+      margin-left: 1.5em;
+    }
+    .gamelist:before{
+      content: '\f0e7' ;
+      font-family: 'FontAwesome' !important;
+      float: left;
+      margin-left: -1.5em;
+      color: #F8B915;;
+    }
+}
+  

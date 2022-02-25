@@ -1,0 +1,224 @@
+.homeimage {
+    background-image: url("https://i.ibb.co/r7WTg0Z/Group-117.png");
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.homebox {
+    background: linear-gradient(134.86deg, rgba(255, 82, 66, 0.25) 0%, rgba(243, 150, 30, 0.25) 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    height: auto;
+}
+textarea {
+    border: none;
+    overflow: hidden;
+    outline: none;
+color: white;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    
+    resize: none;
+}
+.btn:focus {
+    outline: none !important;
+    outline-offset: none !important;
+    box-shadow: none !important;
+}
+/* input{
+    border: 2px solid red;
+} */
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+} */
+::-moz-color-swatch {
+    border-color: transparent;
+}
+input[type="text"]{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    width:5px;
+    color:transparent;
+    cursor:default;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+/* input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+  }
+   */
+  /* .no-outline:focus {
+    outline: none;
+  } */
+
+.BRAWL {
+    color: #F8B815;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+    /* line-height: 100%; */
+}
+
+.THB {
+    color: #F8B815;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+}
+
+.homeboxs {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.homeboxes {
+    background: linear-gradient(90deg, #261506 0%, rgba(26, 28, 35, 0) 100%);
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.span-text {
+    line-height: 0px;
+}
+
+.homepicture {
+    position: absolute;
+    width: 250px;
+}
+
+.texthomes {
+    position: relative;
+    top: 30px;
+    font-size: 22px;
+}
+.imagepostion{
+    position: absolute;
+    bottom: 200px;
+    left: 90px;
+    width: 130px;
+}
+
+.imagepostionsss{
+    position: relative;
+    bottom: 190px;
+    left: 70px;
+    color: #F3961E;
+    font-size: 13px;
+    font-weight: 500;
+}
+.Token-Name {
+    color: #F8B815;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.Thunderbrawl {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.line-height{
+    line-height: 1.2;
+}
+.marginid{
+padding-top: 0;
+}
+.homepagepic{
+width: 250px;
+}
+@media(max-width: 1050px){
+    .homepagepic{
+        width: 150px;
+        }
+        .homepicture {
+            position: absolute;
+            width: 200px;
+        }
+        
+        .texthomes {
+            position: relative;
+        }
+        .Thunderbrawl {
+            font-weight: 300;
+            font-size: 13px;
+            line-height: 27px;
+            color: #FFFFFF;
+        }
+        .BRAWL {
+            color: #F8B815;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 0px;
+            /* line-height: 100%; */
+        }
+        .imagepostion{
+            position: absolute;
+            bottom: 170px;
+            left: 80px;
+            width: 95px;
+        }
+        
+        .imagepostionsss{
+            position: relative;
+            bottom: 158px;
+            left: 40px;
+            color: #F3961E;
+            font-size: 8px;
+            font-weight: 500;
+        }
+}
+@media(max-width: 600px) {
+    .homepicture {
+        margin-top: 30px;
+        position: absolute;
+        width: 150px;
+        /* border: 2px solid red; */
+        text-align: left;
+    }
+
+    .texthomes {
+        position: relative;
+        margin-top: 95px;
+        font-size: 12px;
+    }
+    .marginid{
+        padding-top: 80px;
+        }
+        .imagepostion{
+            position: absolute;
+            bottom: 155px;
+            left: 50px;
+            width: 95px;
+        }
+        
+        .imagepostionsss{
+            position: relative;
+            bottom: 142px;
+            left: 50px;
+            color: #F3961E;
+            font-size: 8px;
+            font-weight: 500;
+        }
+
+}

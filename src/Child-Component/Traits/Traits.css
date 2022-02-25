@@ -1,0 +1,107 @@
+.TraitsBox {
+    background: #F8B815;
+    border-radius: 10px 10px 0px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    padding: 10px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.Traitborder {
+    border-top: 2px solid #F8B815;
+}
+
+.accordion-item,
+.Accordion.Header {
+    background-color: transparent !important;
+}
+
+.accordion-title {
+    font-variant-caps: titling-caps;
+    position: absoulte;
+    color: #FFFFFF;
+}
+
+.accordion-button {
+    color: #FFFFFF;
+    font-style: normal;
+    
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    background-color: transparent !important;
+   
+    border-bottom: 2px solid white;
+  
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 15 15' fill='%23FFFFFF'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion-header:collapse {
+    background-color:transparent !important;
+    color: #FFFFFF;
+}
+.accordion-button collapse {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+  }
+.accordion-header {
+    background-color: transparent !important;
+    color: #FFFFFF;
+}
+.accordion-header::after{
+    color: white;
+}
+
+input[type=radio]:checked ~ .check {
+    border: 5px solid #F5A11B;
+  }
+  
+  input[type=radio]:checked ~ .check::before{
+    background: #F5A11B;
+  }
+ .TraitsBoxxx{
+    background: linear-gradient(134.86deg, #6C3016 0%, #673C0F 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px
+ }
+ .traitsimages{
+     width: 190px;
+ }
+ .BlueId{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFFFFF;
+ }
+ .BlueIdss{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 100%;
+    color: #FFFFFF;
+ }
+ @media(max-width: 1050px){
+    .traitsimages{
+        width: 450px;
+    }
+ }
+ @media(max-width: 600px){
+    .traitsimages{
+        width: 280px;
+    }
+ }
+ @media(max-width: 400px){
+    .traitsimages{
+        width: 230px;
+    }
+ }

@@ -1,0 +1,47 @@
+.TokenDownimage {
+    background-image: url("https://i.ibb.co/K6k846p/Rectangle-510.png");
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+}
+
+.tokenimgess {
+    /* height: 100% !important; */
+
+    /* background-image: url("../../Assets/Vector8.png") !important; */
+    /* background-color: aqua; */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100% !important; 
+    width: 100%;
+    z-index: 1000; */
+}
+
+.tokendownbox {
+    background: radial-gradient(144.75% 42.5% at 50% 55.23%, #413107 30%, rgba(0, 0, 0, 0) 70%);
+    border-radius: 12px;
+    /* background: #000000; */
+    border: 5px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    width: 260px;
+
+}
+
+.TokenImage {
+    width: 225px;
+    border-radius: 5px;
+}
+
+.minttext {
+    color: white;
+}
+
+.tokenimage1 {
+    width: 100%;
+    transform: translateX(1%);
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+}

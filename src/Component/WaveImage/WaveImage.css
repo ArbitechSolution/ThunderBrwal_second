@@ -1,0 +1,28 @@
+.WaveImage{
+
+    background-image: url("https://i.ibb.co/7G0ZBKp/Group.png") !important;
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* height: 100% !important;  */
+    /* width: 100%; */
+    z-index: 1000;
+    padding-top: 100px;
+    padding-bottom: 300px;
+}
+@media(max-width: 600px){
+    .WaveImage{
+
+        background-image: url("https://i.ibb.co/7G0ZBKp/Group.png") !important;
+        background-color: rgb(0, 0, 0);
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        /* background-size: cover; */
+        height: 100% !important; 
+        width: 100%;
+        z-index: 1000;
+        padding-top: 40px;
+        padding-bottom: 300px;
+    } 
+}

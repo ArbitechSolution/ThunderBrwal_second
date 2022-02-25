@@ -1,0 +1,87 @@
+.PlayToEarnImage {
+    background-image: url("https://i.ibb.co/r7WTg0Z/Group-117.png");
+    background-color: rgb(26, 25, 25);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Playpic {
+    position: relative;
+    width: 400px;
+}
+
+.palytoearnpic {
+    position: absolute;
+    width: 360px;
+
+}
+
+.PLAYh2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.palytoearnP {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    /* line-height: 100%; */
+}
+
+.palytoearnh5 {
+    color: #F3961E;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0px 0px 10px rgba(243, 150, 30, 0.5);
+}
+.playtoearnpicture{
+    width: 480px;
+}
+.pictures{
+    width: 320px;
+}
+@media(max-width: 1050px){
+    .Playpic {
+        position: relative;
+        width: 320px;
+    }
+    
+    .palytoearnpic {
+        position: absolute;
+        width: 280px;
+    
+    }
+    .PLAYh2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+    }
+    
+    .palytoearnP {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        /* line-height: 100%; */
+    }
+    
+    .palytoearnh5 {
+        color: #F3961E;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        text-shadow: 0px 0px 10px rgba(243, 150, 30, 0.5);
+    }
+    .playtoearnpicture{
+        width: 310px;
+    }
+    .pictures{
+        width: 280px;
+    }
+}
+@media(max-width: 600px){
+    .display{
+        display: none;
+    }
+}

@@ -1,0 +1,124 @@
+.Fully {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left;
+}
+
+.headertop {
+    padding-top: 60px;
+}
+
+.box {
+    background: rgba(248, 184, 21, 0.3);
+    border-radius: 50px;
+}
+
+.btnmenu {
+    background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnmenu:hover {
+    background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnmenu1{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    border: 2px solid #F3961E;
+    color: #F3961E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btnmenu1:hover{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    border: 2px solid #F3961E;
+    color: #F3961E;
+    font-size: 20px;
+    font-weight: bold;
+}
+.imagemenu{
+    position: absolute;
+    width: 550px;
+    
+}
+.videos{
+    position: relative;
+    height: 290px;
+    width: 515px;
+    /* top: -338px; */
+    left: 15px;
+}
+.androidimage{
+    width: 110px;
+}
+.Frameimage{
+    width: 160px;
+}
+@media(max-width: 1050px){
+    .headertop {
+        padding-top: 10px;
+    }
+    .btnmenu {
+        background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+        border-radius: 100px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btnmenu:hover {
+        background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+        border-radius: 100px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btnmenu1{
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+        border: 2px solid #F3961E;
+        color: #F3961E;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btnmenu1:hover{
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 100px;
+        border: 2px solid #F3961E;
+        color: #F3961E;
+        font-size: 15px;
+        font-weight: bold;
+    } 
+    .imagemenu{
+        position: absolute;
+        width: 400px;
+    }
+    .videos{
+        position: relative;
+        height: 215px;
+        width: 380px;
+        top: -5px;
+        left: 12px;
+    }
+}
+@media(max-width: 480px){
+    .imagemenu{
+        position: absolute;
+        width: 300px;
+    }
+    .videos{
+        position: relative;
+        height: 162px;
+        width: 280px;
+        top: -10px;
+      
+        left: 8px;
+    }
+}

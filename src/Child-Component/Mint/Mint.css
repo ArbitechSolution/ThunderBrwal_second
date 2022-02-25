@@ -1,0 +1,111 @@
+.mintImage1 {
+    position: relative;
+    width: 400px;
+}
+
+.mintImage2 {
+    position: absolute;
+    width: 362px;
+}
+
+.mintspane {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 100%;
+    color: #F8B815;
+}
+
+.mintspane1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.mintboxsss {
+    background: #454545;
+    border-radius: 50px;
+    width: 100px;
+    height: 38px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.mintbtn {
+    background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    padding: 10px 25px;
+    color: #FFFFFF;
+    /* margin-left: 80px; */
+}
+.mintspan23{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 100%;
+color: #FFFFFF;
+}
+.mint-Page-border{
+    border-top: 3px solid rgba(255, 255, 255, 0.25);
+}
+.Mint-Time{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 132%;
+color: #FFFFFF;
+}
+@media(max-width: 1050px){
+    .mintImage1 {
+        position: relative;
+        width: 320px;
+    }
+    
+    .mintImage2 {
+        position: absolute;
+        width: 282px;
+    }
+    .mintspane {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 100%;
+        color: #F8B815;
+    }
+    
+    .mintspane1 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 100%;
+        color: #FFFFFF;
+    }
+}
+@media(max-width: 400px){
+    .mintImage1 {
+        position: relative;
+        width: 280px;
+    }
+    
+    .mintImage2 {
+        position: absolute;
+        width: 252px;
+    }
+    /* .Mint-Time{
+        font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 132%;
+    color: #FFFFFF;
+    text-align: left;
+    } */
+}
