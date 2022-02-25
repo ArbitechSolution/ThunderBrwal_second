@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react'
 // import tiger1 from "../../Assets/tiger 1.jpg"
 import "./Mint.css"
 import { toast } from 'react-toastify';
-
 import {nftContratAddress,nftContractAbi} from "../../Component/Utils/Nft"
 import {stakingContractAddress,stakingContractAbi} from '../../Component/Utils/Staking'
 import {loadWeb3} from '../../Component/Api/api';
@@ -14,6 +13,8 @@ import {loadWeb3} from '../../Component/Api/api';
 function Mint({setShow}) {
     let [value, setValue] = useState(1) 
     let [point,setPoint] = useState(0);
+  
+
     const increaseValue= ()=>{
         if(value<3){
             setValue(++value)
@@ -69,7 +70,8 @@ function Mint({setShow}) {
         let acc = await loadWeb3();
         // console.log("ACC=",acc)
         if (acc == "No Wallet") {
-         toast.error("No Wallet Connected")
+            console.log("No Wallet Connected");
+        //  toast.error("No Wallet Connected")
         }
         else if (acc == "Wrong Network") {
           toast.error("Wrong Newtwork please connect to test net")
@@ -92,7 +94,8 @@ function Mint({setShow}) {
          toast.error("No Wallet Connected")
         }
         else if (acc == "Wrong Network") {
-          toast.error("Wrong Newtwork please connect to test net")
+            console.log("Wrong Network");
+        //   toast.error("Wrong Newtwork please connect to test net")
         }else{
             console.log("mintForLp");
             const web3 = window.web3;

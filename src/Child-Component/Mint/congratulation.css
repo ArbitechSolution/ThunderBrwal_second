@@ -1,3 +1,89 @@
 .Congratimage{
     width: 400px;
 }
+.cardImg{
+    /* background-image: url("https://i.ibb.co/Sdz30VC/Group-505.png");
+    padding-top: 20px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%; */
+    display: flex;
+    justify-content: center;
+
+}
+.uperimg{
+    display: flex;
+    justify-content:start;
+align-items: center;
+ 
+}
+
+.mintImage45{
+    position: absolute;
+    width: 20%;
+    left:   40%;
+    top: 50%;
+    
+}
+.simpleText{
+   font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+.underimg{
+    background-repeat: no-repeat;
+}
+
+.undermodelbtn{
+  
+width: 160px;
+height: 50px;
+
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 100px;
+
+
+
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+
+
+color: #F3961E;
+}
+
+.undermodelbtn2{
+    
+background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+border-radius: 100px;
+width: 160px;
+height: 50px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 33px;
+
+color: #FFFFFF;
+}
+
+.btnmodelhere{
+    display: flex;
+    justify-content: center;
+}
