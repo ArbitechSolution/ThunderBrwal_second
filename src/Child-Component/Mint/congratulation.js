@@ -47,13 +47,9 @@ function MyVerticallyCenteredModal(props) {
                         </div>
 
                         <div className="btnmodelhere">
-                        <button className='undermodelbtn me-2'>BREED</button>
-                        <button className='undermodelbtn2'>ACCEPT</button>
-
-
+                            <button className='undermodelbtn me-2'>BREED</button>
+                            <button className='undermodelbtn2'>ACCEPT</button>
                         </div>
-
-                      
                     </div>
                 </Modal.Header>
             </Modal >
