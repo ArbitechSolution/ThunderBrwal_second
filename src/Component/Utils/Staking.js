@@ -1,4 +1,4 @@
-export const stakingContractAddress = "0x76cdCA0316Acc75Fe0c083836f4C99e4b5e0a036";
+export const stakingContractAddress = "0xe70Cb6Df3F72281E0AF46e6FfCE12c81D68DEB28";
 export const stakingContractAbi = [{
     "inputs": [{
         "internalType": "contract IERC20",
@@ -38,6 +38,20 @@ export const stakingContractAbi = [{
     "type": "function"
 }, {
     "inputs": [{
+        "internalType": "uint256",
+        "name": "amount",
+        "type": "uint256"
+    }],
+    "name": "BNBToBP",
+    "outputs": [{
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+    }],
+    "stateMutability": "view",
+    "type": "function"
+}, {
+    "inputs": [{
         "internalType": "address",
         "name": "addr",
         "type": "address"
@@ -63,6 +77,12 @@ export const stakingContractAbi = [{
         "type": "uint256"
     }],
     "stateMutability": "view",
+    "type": "function"
+}, {
+    "inputs": [],
+    "name": "BuywithBNb",
+    "outputs": [],
+    "stateMutability": "payable",
     "type": "function"
 }, {
     "inputs": [],
@@ -263,6 +283,16 @@ export const stakingContractAbi = [{
 }, {
     "inputs": [],
     "name": "redeemforLp",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+}, {
+    "inputs": [{
+        "internalType": "uint256",
+        "name": "_amount",
+        "type": "uint256"
+    }],
+    "name": "setBNBtoBPPrice",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"

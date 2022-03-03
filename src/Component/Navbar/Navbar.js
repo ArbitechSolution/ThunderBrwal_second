@@ -6,7 +6,7 @@ import { BsTwitter } from 'react-icons/bs';
 import { FaTelegramPlane, FaYoutube } from 'react-icons/fa'
 import { RiGithubLine } from 'react-icons/ri'
 import { Link } from "react-router-dom";
-function NavbarId({ ChnageMain, ChangeStake, ChangeMint, ChangeTraits, ChangeBreed }) {
+function NavbarId({ ChnageMain, ChangeStake, ChangeMint, ChangeTraits, ChangeBreed,ChangeMyCollection }) {
     return (
         <div className='navbariamge'>
             <div className='container'>
@@ -47,7 +47,7 @@ function NavbarId({ ChnageMain, ChangeStake, ChangeMint, ChangeTraits, ChangeBre
                                             <li><a className="dropdown-item text-white" href="#Traits" onClick={() => { ChangeTraits(); window.scrollTo(0, 0); }}>TRAITS</a></li>
                                             {/* </Link>  */}
                                             <li><a className="dropdown-item text-white" href="#">RANKING</a></li>
-                                            <li><a className="dropdown-item text-white" href="#">MY COLLECTION</a></li>
+                                            <li><a className="dropdown-item text-white" href="#MyCollection" onClick={() => { ChangeMyCollection(); window.scrollTo(0, 0); }}>MY COLLECTION</a></li>
                                         </ul>
                                     </li>
                                     <Nav.Link className='text-whitess ms-1 text-white' href="#maskgroup" onClick={() => { ChnageMain() }}>GAME</Nav.Link>

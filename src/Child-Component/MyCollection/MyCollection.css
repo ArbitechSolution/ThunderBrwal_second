@@ -1,0 +1,112 @@
+.StakePageImagess {
+    background-image: url("https://i.ibb.co/sVx0FSC/Rectangle-493.png"), url('https://i.ibb.co/ByXktst/Group-173.png');
+    /* background: rgba(0, 0, 0, 0.2); */
+    background-repeat: no-repeat;
+    background-color: black;
+    /* background-attachment: fixed; */
+    background-size: cover, contain;
+    /* height: 500px; */
+
+
+}
+
+.collections {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mycollections {
+    background: linear-gradient(134.86deg, #6C3016 0%, #673C0F 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.myCollectionsImage {
+    width: 260px;
+}
+
+.collectionsText {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.collectionsTextSmall {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 40%;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.btnCollection {
+    background: linear-gradient(90deg, #F3961E 1.7%, #FF5043 100%);
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    padding: 2px 22px;
+}
+
+.btnCollectionOne {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100px;
+    border: 2px solid #FF5043;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #F3961E;
+}
+
+.MyCollectionspan {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.mycollectionsP {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 10%;
+    color: #FFFFFF
+}
+
+.mycollectionsP1 {
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 10%;
+    margin-top: 20px;
+    color: #FFFFFF
+}
+
+.bosCollection {
+    background: #454545;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+}
+
+@media(max-width: 600px) {
+    .collections {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+}

@@ -204,7 +204,7 @@ function StakePage() {
           if (parseFloat(thbLpBalance) >= parseFloat(enteredVal)) {
             if (lpStaked <= 0) {
               enteredVal = web3.utils.toWei(enteredVal.toString());
-              
+
               await thbLpTokenContractOf.methods.approve(stakingContractAddress, enteredVal.toString()).send({
                 from: acc
               })
@@ -258,15 +258,15 @@ function StakePage() {
         let AddTime = +lpLockTime + +depositTimes;
         console.log("AddTime", AddTime);
         if (lpStaked > 0) {
-          if(timestamp >= AddTime){
+          if (timestamp >= AddTime) {
             await stakingCOntractOf.methods.withdrawLPtoken().send({
               from: acc
             })
             toast.success("Transaction Confirmed")
-          }else{
+          } else {
             toast.error("Unlocked Time Not Reached !")
           }
-          
+
 
         } else {
           toast.error("You have not staked any Lp Tokens yet")
@@ -294,7 +294,7 @@ function StakePage() {
         let redeemContract = new web3.eth.Contract(stakingContractAbi, stakingContractAddress);
         const BPBlance = await redeemContract.methods.BPcalculator(acc).call();
         if (BPBlance > 0) {
-          
+
           await redeemContract.methods.redeem().send({
             from: acc
           })

@@ -15,6 +15,7 @@ import Mintpage from './Mintpage'
 import StakePages from './StakePages'
 import Traitspage from './Traitspage'
 import BreedPage from './BreedPage'
+import MyCollectionPage from './MyCollectionPage'
 function Home() {
   const [isChangeRoute, setIsChangeRoute] = useState("main")
   const ChnageMain = () => {
@@ -32,6 +33,9 @@ function Home() {
   const ChangeBreed = () => {
     setIsChangeRoute("breed")
   }
+  const ChangeMyCollection = ()=>{
+    setIsChangeRoute("MyCollection")
+  }
   const Main = () => {
     return (
       <>
@@ -41,6 +45,7 @@ function Home() {
           ChangeMint={ChangeMint}
           ChangeTraits={ChangeTraits}
           ChangeBreed={ChangeBreed}
+          ChangeMyCollection={ChangeMyCollection}
         />
         <Menu />
         <Homepage />
@@ -64,6 +69,7 @@ function Home() {
           ChangeMint={ChangeMint}
           ChangeTraits={ChangeTraits}
           ChangeBreed={ChangeBreed}
+          ChangeMyCollection={ChangeMyCollection}
         />
         <StakePages />
       </>
@@ -78,6 +84,7 @@ function Home() {
           ChangeMint={ChangeMint}
           ChangeTraits={ChangeTraits}
           ChangeBreed={ChangeBreed}
+          ChangeMyCollection={ChangeMyCollection}
         />
         <Mintpage />
       </>
@@ -92,6 +99,7 @@ function Home() {
           ChangeMint={ChangeMint}
           ChangeTraits={ChangeTraits}
           ChangeBreed={ChangeBreed}
+          ChangeMyCollection={ChangeMyCollection}
         />
         <Traitspage />
       </>
@@ -106,10 +114,26 @@ function Home() {
           ChangeMint={ChangeMint}
           ChangeTraits={ChangeTraits}
           ChangeBreed={ChangeBreed}
+          ChangeMyCollection={ChangeMyCollection}
         />
         <BreedPage />
       </>
     )
+  }
+  const MyCollection=()=>{
+return(
+<>
+<Navbar
+          ChnageMain={ChnageMain}
+          ChangeStake={ChangeStake}
+          ChangeMint={ChangeMint}
+          ChangeTraits={ChangeTraits}
+          ChangeBreed={ChangeBreed}
+          ChangeMyCollection={ChangeMyCollection}
+        />
+        <MyCollectionPage/>
+</>
+)
   }
   if (isChangeRoute == "main") {
     return (
@@ -141,6 +165,12 @@ function Home() {
         <Breed />
       </div>
     )
+  } else if (isChangeRoute == "MyCollection"){
+    return(
+<div className='App'>
+        <MyCollection />
+      </div>
+      )
   }
 }
 
